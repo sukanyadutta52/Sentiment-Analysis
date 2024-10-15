@@ -1,8 +1,6 @@
 # Sentiment Analysis
 ## An Analysis of How Machine Perceives Women and How They Feel about Themselves As a Result of This Perception
 
-A study conducted by Dove found that only 4% of women worldwide consider themselves to be beautiful. According to the survey, 72% of young girls feel intense pressure to be beautiful, and more than half (54%) admit they are their own worst critics when it comes to their appearance.
-
-* How the words related to women's beauty percieved by machine in a poisitive or negative way
-* How these words are percieved cognitively
-* Does machine get the emotion right?
+* Objective : The project highlights how unrealistic beauty standards, perpetuated by media and toys like Barbie, negatively impact women's self-esteem, body image, and mental health, leading to issues like anxiety, depression, and eating disorders. The research aims to explore how cognitive processes influence these harmful effects and how artificial intelligence, through sentiment analysis, could help address emotions and sentiments related to these challenges.
+* Procedure : VADER, a lexicon-based sentiment analysis tool for social media, shows that punctuation, capitalization, and modifiers impact sentiment analysis accuracy, achieving better results than human raters. In the corpus analyzed, VADER indicated 71% neutral, 20% positive, and 9% negative sentiment, with surprising positivity. Flair, using a character-level LSTM, classified the same text as 98% negative, while frequency analysis revealed that words like "beauty," "women," "skin," and "standards" are most frequently repeated, highlighting societal focus on women's appearance and media-driven beauty standards.
+* Conclusion : While words like "perfect," "clean," "ideal," and "confidence" may appear positive, in the context of the corpus, they often reflect negative emotions, as women undergo countless procedures daily to achieve these ideals. As data grows more complex, multiple topics emerge, making it possible to create various scenarios from vast amounts of unstructured data, especially in the era of big data, where there is a constant desire to extract as much information as possible.
